@@ -37,56 +37,47 @@
 // • ex: Hello, my name is Jean Valjean
 
 
-let firstVariable = 'hello world'
+// let firstVariable = 'hello world'
 
-  firstVariable = 5;
+//   firstVariable = 5;
 
-  // console.log(firstVariable);
+//   // console.log(firstVariable);
 
-  secondVariable = firstVariable;
+//   secondVariable = firstVariable;
 
-console.log(secondVariable);
+// console.log(secondVariable);
 
-secondVariable = "hello washington"
+// secondVariable = "hello washington"
 
-console.log(firstVariable);
-// --------------------------------------------------
-//      The Value of the firt variable is 5.
+// console.log(firstVariable);
+// // --------------------------------------------------
+// //      The Value of the firt variable is 5.
 
-// --------------------------------------------------
- const yourName = "Jared"
-  console.log('Hello, my name is ' + yourName + "!");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// // --------------------------------------------------
+//  const yourName = "Jared"
+//   console.log('Hello, my name is ' + yourName + "!");
 
 // -------------
 // // Booleans
 // -------------
 
+// • Using the provided variable definitions, 
+// replace the blanks with a mathematical or boolean operator 
+// that evaluates the expression to true. 
 
+  const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
 
+a < b;
+c > d;
+'Name' === 'Name';
+a + b === c;
+a + a != d;
+e != 'Kevin';
+48 == '48';
 
 
 
