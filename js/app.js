@@ -13,7 +13,7 @@
 
 
 // -------------
-// // Strings
+//  Strings
 // -------------
 // 1. Create a variable called firstVariable.
 
@@ -50,34 +50,63 @@
 // secondVariable = "hello washington"
 
 // console.log(firstVariable);
-// // --------------------------------------------------
-// //      The Value of the firt variable is 5.
+//  --------------------------------------------------
+//       The Value of the firt variable is 5.
 
-// // --------------------------------------------------
+//  --------------------------------------------------
 //  const yourName = "Jared"
 //   console.log('Hello, my name is ' + yourName + "!");
 
 // -------------
-// // Booleans
+//  Booleans
 // -------------
 
 // • Using the provided variable definitions, 
 // replace the blanks with a mathematical or boolean operator 
 // that evaluates the expression to true. 
 
-  const a = 4;
-  const b = 53;
-  const c = 57;
-  const d = 16;
-  const e = 'Kevin';
+//   const a = 4;
+//   const b = 53;
+//   const c = 57;
+//   const d = 16;
+//   const e = 'Kevin';
 
-a < b;
-c > d;
-'Name' === 'Name';
-a + b === c;
-a + a != d;
-e != 'Kevin';
-48 == '48';
+// a < b;
+// c > d;
+// 'Name' === 'Name';
+// a + b === c;
+// a + a != d;
+// e != 'Kevin';
+// 48 == '48';
+
+// -----------
+// The Farm
+// -----------
+
+// 1• Write code that will print out "mooooo" if the variable 
+//   animal is equal to cow.
+
+// 2• Change your code so that if the variable animal 
+//   is anything other than a cow, your should print out 
+//   "Hey! You're not a cow."
+
+
+const animal = 'bird';
+
+  if ('cow' == animal){
+    console.log('mooooo');
+  } else {
+    console.log('Hey! Youre not a cow!');
+  }
+
+
+
+
+
+
+
+
+
 
 
 
