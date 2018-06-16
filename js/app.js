@@ -1,6 +1,7 @@
 // console.log('javascript is not the same as java')
-// weekend-js-1
-
+// ---------------------
+// weekend-js-1 (06-15-18 -- 06-17-18)
+// ---------------------
 // Conceptual Questions
 
 // Long_Weekend covering loops, functions, and datatypes
@@ -13,7 +14,7 @@
 
 
 // -------------
-//  Strings
+//    Strings
 // -------------
 // 1. Create a variable called firstVariable.
 
@@ -80,7 +81,7 @@
 // 48 == '48';
 
 // -----------
-// The Farm
+//  The Farm
 // -----------
 
 // 1• Write code that will print out "mooooo" if the variable 
@@ -91,13 +92,86 @@
 //   "Hey! You're not a cow."
 
 
-const animal = 'bird';
+// const animal = 'bird';
 
-  if ('cow' == animal){
-    console.log('mooooo');
-  } else {
-    console.log('Hey! Youre not a cow!');
-  }
+//   if ('cow' == animal){
+//     console.log('mooooo');
+//   } else {
+//     console.log('Hey! Youre not a cow!');
+//   }
+
+// --------------------
+//    Driver's Ed
+// --------------------
+
+// 1. Write a variable that will hold a person's age.
+
+// 2. Write code that will print out "Here are the keys", 
+//    if the age is 16 years or older.
+
+// 3. Change your code so that if the age is younger than 16, 
+//    a message will print "Sorry, you're too young."
+
+// const oldEnough = (age) => {
+//   if (age >= 16){
+//     console.log("Here are the keys");
+//     } else 
+//     console.log("Sorry, you're too young");
+// }
+// oldEnough(10)
+// oldEnough(18)
+
+// ---------------------------------
+          // Just Loop It
+// ---------------------------------
+// 1. Write code that will print out all 
+//    the numbers in the range 0 - 10.
+
+// 2. Write code that will print out all 
+//    the numbers in the range 10 - 4000.
+
+// 3. Write code that will print out every 
+//    other number in the range 10 - 4000.
+// ======================================
+// 
+// // Notes line 145:if i++ here would only get total number print out, 
+// //not individual. i += 0 allows counting up each 
+// //number with the below code combined.
+
+// 1.
+// Notes line 147: with out this line here, would be infinite loop. 
+// Also would not print out each number.
+//=================================
+for (i = 0; i <= 10; i += 0){ 
+  console.log(i);
+  i++ 
+}
+//=================================
+// 2.
+// a.) i sets where we start from b.) where we count towards c.) the rate at which we will move by (+ 0 = moving normal 1 count at a time).
+//=================================
+for (i = 10; i <= 4000; i += 0){
+  console.log(i);
+  i++
+}
+//==================================
+// 3. i += 1 will make the count skip a number as it counts. (count+1)
+//===================================
+for (i = 10; i <= 4000; i += 1){
+  console.log(i);
+  i++
+}
+//===================================
+
+
+
+
+
+
+
+
+
+
 
 
 
