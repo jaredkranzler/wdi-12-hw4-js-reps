@@ -294,47 +294,96 @@
 // //-------------------------------------------------------
 //                    We've Got Class
 // //-------------------------------------------------------
-const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
-// //1. What would you write to access the 3rd element of the array?
-console.log(ourClass[2]);
+// const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
+// // //1. What would you write to access the 3rd element of the array?
+// console.log(ourClass[2]);
 
-// //2. Change the value of "Github" to "Octocat"
-ourClass[2] = "Octocat";
-console.log(ourClass[2]);
+// // //2. Change the value of "Github" to "Octocat"
+// ourClass[2] = "Octocat";
+// console.log(ourClass[2]);
 
-// //3. Add a new element, "Cloud City" to the array.
-ourClass.push("Cloud City");
-console.log(ourClass);
+// // //3. Add a new element, "Cloud City" to the array.
+// ourClass.push("Cloud City");
+// console.log(ourClass);
 
-// //------------------------------------------------------
-// //                     Mix It Up
-// //------------------------------------------------------
-const myArray = [5 ,10 ,500, 20]
-// //5. using the push method, add the string "Egon" 
-// //   to the end of the array.
-myArray.push("Egon");
-console.log(myArray);
+// // //------------------------------------------------------
+// // //                     Mix It Up
+// // //------------------------------------------------------
+// const myArray = [5 ,10 ,500, 20]
+// // //5. using the push method, add the string "Egon" 
+// // //   to the end of the array.
+// myArray.push("Egon");
+// console.log(myArray);
 
 // //6. using a method, remove the string from the end of the array.
-myArray.pop();
-console.log(myArray);
+// myArray.pop();
+// console.log(myArray);
 
-// // 7. using the unshift method, add the string "Bob Marley" 
-// //    to the beginning of the array
-myArray.unshift("Bob Marley");
-console.log(myArray);
+// // // 7. using the unshift method, add the string "Bob Marley" 
+// // //    to the beginning of the array
+// myArray.unshift("Bob Marley");
+// console.log(myArray);
 
-// //8. using a different method, remove the string from 
-// //   the beginning of the array
-myArray.splice(0, 1);
-console.log(myArray);
-// //9. use the reverse method on this array
-myArray.reverse();
-console.log(myArray);
+// // //8. using a different method, remove the string from 
+// // //   the beginning of the array
+// myArray.splice(0, 1);
+// console.log(myArray);
+// // //9. use the reverse method on this array
+// myArray.reverse();
+// console.log(myArray);
 
 // //-------------------------------------------------------
 // //                 Biggie Smalls
 // //-------------------------------------------------------
+// // • Write an if..else statement:
+
+// //1. console.log little number if the number is 
+// //   entered is less than 100
+
+// //2. If the number entered is 100 or more, alert big number.
+
+  // for (let i = 0; i < 200; i++){
+  //   let i = 1000;
+  //   if (i < 100){
+  //     console.log("Puny little number")
+  //   } else
+  //   console.log("winner winner big winner...Huge!")
+  //   }
+
+// //-----------------------------------------------------
+// //                 Monkey in the Middle
+// //-----------------------------------------------------
+
+// //• Write an if...else if...else statement:
+
+// //1. console.log little number if the number entered 
+// //   is less than 5.
+
+// //2. If the number entered is more than 10, log big number.
+
+// //3. Otherwise, console.log "monkey". 
+
+
+  for (let i = 0; i < 200; i++){
+    let i = 11;
+    if (i < 5){
+      console.log("Puny little number")
+    } else if (i > 10) {
+    console.log("winner winner big winner...Huge!")
+    } else (console.log("Monkey Bone"))
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
