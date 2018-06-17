@@ -259,29 +259,82 @@
 // //   Find the sum of all the multiples of 3 or 5 below 1000.
 
 
-let treeFive = 0
- for (let x = 1; x < 1000; x++){
-  if (x % 3 === 0 || x % 5 === 0)
-    treeFive += x
-};
-console.log(treeFive);
+// let treeFive = 0
+//  for (let x = 1; x < 1000; x++){
+//   if (x % 3 === 0 || x % 5 === 0)
+//     treeFive += x
+// };
+// console.log(treeFive);
 
+// //----------------------------------------------------
+// //               Easy Does it
+// //-----------------------------------------------------
 
+// const quotes = [ 
+//   "of all the things i've lost, i miss my mind the most",
+//   "life is a garden, dig it",
+//   "royal with cheese"
+// ];
 
+// //-----------------------------------------------------
+// //               Random
+// //-----------------------------------------------------
+// const randomThings = [1, 10, "Hello", true]
 
+// // //1. how do you access the 1st element in the array?
+// console.log(randomThings[0]);
 
+// // //2. Change the value of "Hello" to "World".
+// randomThings[2] = "world";
+// console.log(randomThings[2]);
 
+// // //3. Check the value of the array to make sure it updated the array.
+// console.log(randomThings);
 
+// //-------------------------------------------------------
+//                    We've Got Class
+// //-------------------------------------------------------
+const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
+// //1. What would you write to access the 3rd element of the array?
+console.log(ourClass[2]);
 
+// //2. Change the value of "Github" to "Octocat"
+ourClass[2] = "Octocat";
+console.log(ourClass[2]);
 
+// //3. Add a new element, "Cloud City" to the array.
+ourClass.push("Cloud City");
+console.log(ourClass);
 
+// //------------------------------------------------------
+// //                     Mix It Up
+// //------------------------------------------------------
+const myArray = [5 ,10 ,500, 20]
+// //5. using the push method, add the string "Egon" 
+// //   to the end of the array.
+myArray.push("Egon");
+console.log(myArray);
 
+// //6. using a method, remove the string from the end of the array.
+myArray.pop();
+console.log(myArray);
 
+// // 7. using the unshift method, add the string "Bob Marley" 
+// //    to the beginning of the array
+myArray.unshift("Bob Marley");
+console.log(myArray);
 
+// //8. using a different method, remove the string from 
+// //   the beginning of the array
+myArray.splice(0, 1);
+console.log(myArray);
+// //9. use the reverse method on this array
+myArray.reverse();
+console.log(myArray);
 
-
-
-
+// //-------------------------------------------------------
+// //                 Biggie Smalls
+// //-------------------------------------------------------
 
 
 
