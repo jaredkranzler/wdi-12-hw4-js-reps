@@ -231,7 +231,8 @@
 // // 2. You got a bonus! Your pay is now doubled each week. 
 // //    Write code that will save the sum of all the numbers 
 // //    between 1 - 100 multiplied by 2.
-
+// // notes: for loop when number of times is defined
+// // i++ && i = i + 1 && i += 1 are all the same
 // // 1.
 
 //   let bankAccount = 0
@@ -261,8 +262,8 @@
 
 // let treeFive = 0
 //  for (let x = 1; x < 1000; x++){
-//   if (x % 3 === 0 || x % 5 === 0)
-//     treeFive += x
+//  if (x % 3 === 0 || x % 5 === 0)
+//  treeFive += x
 // };
 // console.log(treeFive);
 
@@ -345,7 +346,7 @@
   // for (let i = 0; i < 200; i++){
   //   let i = 1000;
   //   if (i < 100){
-  //     console.log("Puny little number")
+  //   console.log("Puny little number")
   //   } else
   //   console.log("winner winner big winner...Huge!")
   //   }
@@ -367,7 +368,7 @@
   // for (let i = 0; i < 200; i++){
   //   let i = 11;
   //   if (i < 5){
-  //     console.log("Puny little number")
+  //   console.log("Puny little number")
   //   } else if (i > 10) {
   //   console.log("winner winner big winner...Huge!")
   //   } else (console.log("Monkey Bone"))
@@ -457,11 +458,11 @@
 // //--------------------------------------------------------------------
 // //Write a function called printGreeting with a parameter name that 
 // //returns a greeting with the argument interpolated into the greeting.
-const name = 'Slimer';
-const printGreeting = (name) => {
-  return name;
-}
-console.log(`Hello there, ${name}!`);
+// const name = 'Slimer';
+// const printGreeting = (name) => {
+//   return name;
+// }
+// console.log(`Hello there, ${name}!`);
 
 
 // //-----------------------------------------------------
@@ -471,15 +472,15 @@ console.log(`Hello there, ${name}!`);
 // //a string. The function should return a string with the order of 
 // //the words reversed. Don't worry about punctuation.
 
-const reverseWordOrder = (string) => {
-  const splitString = string.split(" ");
-  // console.log(splitString);
-  const reverseArray = splitString.reverse();
-  // console.log(reverseArray);
-  const joinArray = reverseArray.join(" ");
-  return joinArray;
-}
-console.log(reverseWordOrder("i'm into fitness... fitness whole pizza into my mouth"));
+// const reverseWordOrder = (string) => {
+//   const splitString = string.split(" ");
+//   // console.log(splitString);
+//   const reverseArray = splitString.reverse();
+//   // console.log(reverseArray);
+//   const joinArray = reverseArray.join(" ");
+//   return joinArray;
+// }
+// console.log(reverseWordOrder("i'm into fitness... fitness whole pizza into my mouth"));
 
 
 // //---------------------------------------------------------
@@ -502,40 +503,191 @@ console.log(reverseWordOrder("i'm into fitness... fitness whole pizza into my mo
 // //"div", and exponent "exp" (where num2 is the exponent of num1).
 
 
+// const calculate = (num1, num2, operation) => {
+//   if(operation === "add"){
+//     return (num1 + num2);
+//   } else if (operation === "sub"){
+//     return (num1 - num2);
+//   }else if (operation === "mult"){
+//     return (num1 * num2);
+//     }else if (operation === "div"){
+//     return (num1 % num2);
+//     }else 
+//     return (Math.pow(num1, num2));
+// }
+// console.log(calculate(4, 3, "add"));
+// console.log(calculate(4, 3, "sub"));
+// console.log(calculate(40, 3, "mult"));
+// console.log(calculate(40, 5, "div"));
+// console.log(calculate(4, 3, "exp"));
 
-const calculate = (num1, num2, operation) => {
-  if(operation === "add"){
-    return (num1 + num2);
-  } else if (operation === "sub"){
-    return (num1 - num2);
-  }else if (operation === "mult"){
-    return (num1 * num2);
-    }else if (operation === "div"){
-    return (num1 % num2);
-    }else 
-    return (Math.pow(num1, num2));
+
+
+// //------------------------------------------------------
+// //                --- 1 ---
+// //------------------------------------------------------
+// //Write a function printCool that accepts one parameter, 
+// //name as an argument. The function should print the name 
+// //and a message saying that that person is cool.
+
+// const printCool = (name, sentence) => {
+//   name = "Captain Reynolds"
+//   sentence = " is cool!";
+//   return (name + sentence);
+// }
+// console.log(printCool());
+
+// //------------------------------------------------------
+// //               --- 2 ---
+// //------------------------------------------------------
+//Write a function calculateCube that takes a single number 
+//and prints the volume of a cube made from that number.
+
+
+// Volume === legth * width * height (all are the same dimensions)
+
+// const calculateCube = (cubeVolume) => {
+//     const i = 5;
+//     return (i * i * i);
+// }
+// console.log(calculateCube());
+// //------------------------------------------------------
+// //               --- 3 ---
+// //------------------------------------------------------
+// //Write a function isAVowel that takes a character 
+// //(i.e. a string of length 1) and returns true if it is a vowel, 
+// //false otherwise. The vowel could be upper or lower case.
+
+// const isAVowel = (character) => {
+//   let i = character;
+//   if (i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u' || i == 'y'){
+//     return true;
+//   } else if (i == 'A' || i == 'E' || i == 'I' || i == 'O' || i == 'U' || i == 'Y'){
+//     return true;
+//   } else 
+//     return false;
+// }
+// console.log(isAVowel('S'));
+// console.log(isAVowel('i'));
+// console.log(isAVowel('A'));
+
+// //------------------------------------------------------
+// //               --- 4 ---
+// //------------------------------------------------------
+// //
+// //Write a function getTwoLengths that accepts two parameters 
+// //(strings). The function should return an array of numbers 
+// //where each number is the length of the corresponding string.
+
+// const getTwoLengths = (string1, string2) => {
+//   //return array of numbers
+//       const a = string1.length;
+//       const b = string2.length;
+// //      // console.log(string1.length);
+// //      // console.log(string2.length);
+//       const arr = [a, b];
+// //      // console.log(arr);
+//       return arr
+//   }
+// console.log(getTwoLengths('dude', 'sweet'));
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+
+// //------------------------------------------------------
+// //               --- 5 ---
+// //------------------------------------------------------
+// //Write a function getMultipleLengths that accepts a single
+// //parameter as an argument: an array of strings. The function 
+// //should return an array of numbers where each number is the 
+// //length of the corresponding string.
+
+// const getMultipleLengths = (arr) => {
+//       // array length
+//       const stringLength = [];
+//       for (i = 0; i < arr.length; i++){
+//        // console.log(arr[i].length);
+//       stringLength[i] = arr[i].length;
+//       }
+//       return stringLength
+
+// }
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// // **-----> come back and combine into one array <--------***
+// // -> Problem fixed -> keep const and let outside of for loop***
+// // Remember to return something
+
+// //------------------------------------------------------
+// //               --- 6 ---
+// //------------------------------------------------------
+// //Define a function maxOfThree that takes three numbers as arguments
+// //and returns the largest of them. If all numbers are the same,
+// //it doesn't matter which one is returned. If the two largest 
+// //numbers are the same, one of them should be returned.
+
+// const maxOfThree = (num1, num2, num3) => {
+//   return Math.max(num1, num2, num3);
+//   if (num1 == num2 || num1 == num3){
+//     return num1;
+//   } else if (num2 == num3)
+//     return num3;
+// }
+// console.log(maxOfThree(6, 9, 1));
+// console.log(maxOfThree(8, 8, 1));
+// console.log(maxOfThree(6, 7, 7));
+// console.log(maxOfThree(6, 5, 6));
+// console.log(maxOfThree(5, 5, 5));
+
+
+
+// //------------------------------------------------------
+// //               --- 7 ---
+// //------------------------------------------------------
+// //Write a function printLongestWord that accepts a single argument, 
+// //an array of strings. The method should return the longest 
+// //word in the array. In case of a tie, the method should 
+// //return the word that appears first in the array.
+
+const printLongestWord = (arrString) => {
+      //Edge Case: empty array
+      if(arrString.length === 0){
+        console.error("empty array");
+        return;
+      }
+      let longestWordSoFar = arrString[0];
+  // we are going to scan through the array, store in variable above
+      for (let i = 0; i < arrString.length; i++){
+        const thisWord = arrString[i];
+        if(thisWord.length > longestWordSoFar.length){
+          longestWordSoFar = thisWord;
+        //if this word is longer than the word we think is the longest
+        }
+      }
+      return longestWordSoFar
 }
-console.log(calculate(4, 3, "add"));
-console.log(calculate(4, 3, "sub"));
-console.log(calculate(40, 3, "mult"));
-console.log(calculate(40, 5, "div"));
-console.log(calculate(4, 3, "exp"));
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
 
+// //-----> COME BACK IF STATMENTS <---**
 
 
+// //------------------------------------------------------
+// //               --- 8 ---
+// //------------------------------------------------------
+// //Write a Javascript function called transmogrify. This 
+// //function should accept three arguments, which you can assume 
+// //will be numbers. Your function should return the "transmogrified" result.
 
+// //The transmogrified result of three numbers is the product of 
+// //the first two numbers, raised to the power of the third number.
 
+// //For example, the transmogrified result of 5, 3, and 2 is 
+// //(5 times 3) to the power of 2 is 225.
 
+// const transmogrify = (num1, num2, num3) => {
 
-
-
-
-
-
-
-
-
+  
+// }
 
 
 
